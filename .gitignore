@@ -1,0 +1,6 @@
+
+
+# dependencies
+/node_modules
+webbshopp_db.mdf
+webbshopp_db_log.ldf
