@@ -158,12 +158,12 @@ namespace WebbApi.Controllers
         // POST: api/Users
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
-        {
+    //    public async Task<ActionResult<User>> PostUser(User user)
+    //   {
 
             // VG DEL
 
-            return new NotFoundObjectResult(user);
+           // return new NotFoundObjectResult(user);
 
 
 
@@ -210,7 +210,7 @@ namespace WebbApi.Controllers
             //    }
             //}
             //return new BadRequestObjectResult(JsonConvert.SerializeObject(new { message = $"All fields must contain values." }));
-        }
+     //  }
 
 
 
